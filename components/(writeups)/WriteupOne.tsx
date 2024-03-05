@@ -12,7 +12,7 @@ const WriteupOnePage = () => {
             <div className="flex flex-row mb-10">
                 <p className="mr-4 text-sm text-gray-500">Published on: February 29, 2024 10:00 AM</p>
                 <p className="mr-4 text-sm text-gray-500">Last updated: February 29, 2024 11:30 AM</p>
-                <p className="ml-42 text-sm text-gray-500">Author: z3phr0us</p>
+                <p className="mr-4 text-sm text-gray-500">Author: z3phr0us</p>
             </div>
             <Image
                 src="https://i.imgur.com/lm1IGpx.png"
