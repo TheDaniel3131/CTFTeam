@@ -80,9 +80,9 @@ export const Navigationbar = () => {
                 </Link>
             </div>
             <div className="block lg:hidden">
-                <button className="flex items-center px-5 py-5 mb-5 text-white border border-white rounded hover:text-white hover:border-white">
+                <button className="flex items-center px-5 py-5 mb-5 text-white border-white rounded hover:text-white hover:border-white">
                     <svg
-                        className="w-3 h-3 fill-current"
+                        className="w-5 h-5 fill-current"
                         viewBox="0 0 20 20"
                         xmlns="http://www.w3.org/2000/svg"
                     >
