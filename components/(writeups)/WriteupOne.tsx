@@ -5,11 +5,13 @@ import Image from 'next/image';
 const WriteupOnePage = () => {
     return (
         <div className="flex flex-col items-center justify-center mb-19 mt-20">
-            <Link href="https://skrctf.me/challenges#Schr%C3%B6dinger's%20Cat%202" target="_blank">
-                <h1 className="text-6xl text-center font-bold underline mb-4">Schrödinger&apos;s Cat 2</h1>
-            </Link>
-            <p className=" text-lg font-semibold mb-4">Miscellaneous category from SKRCTF.</p>
-            <div className="flex flex-row mb-10">
+            <div className="flex flex-col md:flex-row md:justify-between">
+                <Link href="https://skrctf.me/challenges#Schr%C3%B6dinger's%20Cat%202" target="_blank">
+                    <h1 className="text-5xl md:text-6xl text-center font-bold underline mb-4">Schrödinger&apos;s Cat 2</h1>
+                </Link>
+            </div>
+            <p className="text-lg font-semibold mb-4">Miscellaneous category from SKRCTF.</p>
+            <div className="flex flex-col md:flex-row md:justify-between items-center mb-10">
                 <p className="mr-4 text-sm text-gray-500">Published on: February 29, 2024 10:00 AM</p>
                 <p className="mr-4 text-sm text-gray-500">Last updated: February 29, 2024 11:30 AM</p>
                 <p className="mr-4 text-sm text-gray-500">Author: z3phr0us</p>
