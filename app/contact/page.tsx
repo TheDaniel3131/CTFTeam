@@ -7,6 +7,7 @@ const Contact = () => {
   return (
     <div>
       <Navigationbar />
+      <h1 style={{ textAlign: 'center', fontSize: '36px', fontWeight: 'bold', marginTop: '1.5em' }}>Contact Us</h1>
       <ContactPage />
       <FooterPage />  
     </div>
