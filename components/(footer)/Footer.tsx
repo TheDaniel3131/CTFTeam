@@ -30,7 +30,7 @@ return (
                         <Footer.LinkGroup col style={{ marginTop: '1rem' }}>
                             <Footer.Link href="https://github.com/myst3r10us">Github</Footer.Link>
                             <Footer.Link href="https://ctftime.org/team/277613">CTFTime</Footer.Link>
-                            <Footer.Link href="#">Discord</Footer.Link>
+                            {/* <Footer.Link href="#">Discord</Footer.Link> */}
                         </Footer.LinkGroup>
                     </div>
                     <div className="mr-20 scroll-mr-20">
