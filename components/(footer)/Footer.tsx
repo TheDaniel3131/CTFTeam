@@ -12,7 +12,7 @@ return (
                         href="/"
                         src="https://i.imgur.com/F1VLIwj.jpeg"
                         alt="myst3r10us black hat hackers"
-                        name="chmod +x ./myst3r10us"   
+                        name="./myst3r10us"   
                         style={{ width: '100px', height: '100px', marginTop: '1rem' }}
                     />
                 </div>
