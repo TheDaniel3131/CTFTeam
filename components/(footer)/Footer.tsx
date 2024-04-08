@@ -4,7 +4,7 @@ import React from 'react'
 
 export const FooterPage = () => {
 return (
-    <Footer container className="dark:bg-slate-800 py-8 px-20">
+    <Footer container className="dark:bg-slate-950 py-8 px-20">
         <div className="w-full  ">
             <div className="grid grid-cols-1 w-full justify-between sm:grid-cols-3 sm:flex sm:justify-between md:flex md:grid-cols-3 gap-2rem">
                 <div className="mb-4">
