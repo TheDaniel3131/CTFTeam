@@ -33,7 +33,7 @@ const components: { title: string; href: string; description: string }[] = [
 
 const About = () => {
   return (
-    <div className=" bg-slate-900 min-h-screen">
+    <div className=" bg-slate-950 min-h-screen">
       <Navigationbar />
       <div className="container mx-auto py-8">
         <div className="flex items-center justify-center bg-slate-700 mb-16">
