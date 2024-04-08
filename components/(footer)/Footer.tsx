@@ -46,8 +46,8 @@ return (
             <div className="flex mt-10 items-center w-full sm:flex sm:items-center sm:justify-between">
                 <Footer.Copyright href="#" by="myst3r10us" year={2024} />
                 <div className="flex space-x-6 sm:mt-0 sm:justify-center">
-                    <Footer.Icon href="#" target="_blank" icon={BsFacebook} />
-                    <Footer.Icon href="#" target="_blank" icon={BsInstagram} />
+                    {/* <Footer.Icon href="#" target="_blank" icon={BsFacebook} />
+                    <Footer.Icon href="#" target="_blank" icon={BsInstagram} /> */}
                     <Footer.Icon href="#" target="_blank" icon={BsTwitter} />
                     <Footer.Icon href="https://github.com/myst3r10us" target="_blank" icon={BsGithub} />
                 </div>
