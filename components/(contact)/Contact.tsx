@@ -67,26 +67,26 @@ export const ContactPage: React.FC = () => {
         <form onSubmit={handleSubmit} className='w-full max-w-sm mx-auto bg-white shadow-md rounded-[35px] px-8 pt-6 pb-8 mb-36 mt-20'>
             <div className='mb-4'>
                 <label className='block text-gray-500 font-bold mb-1' htmlFor='name'>
-                    Your Name
+                    Name
                 </label>
                 <input
                     className='shadow appearance-none border rounded-3xl w-full py-2 px-3 text-slate-100 leading-tight focus:outline-none focus:shadow-outline bg-slate-700'
                     id='name'
                     type='text'
-                    placeholder='Your Name'
+                    placeholder='Enter Your Name'
                     value={name}
                     onChange={handleNameChange}
                 />
             </div>
             <div className='mb-4'>
                 <label className='block text-gray-500 font-bold mb-1' htmlFor='email'>
-                    Your Email
+                    Email Address
                 </label>
                 <input
                     className='shadow appearance-none border rounded w-full py-2 px-3 text-slate-100 leading-tight focus:outline-none focus:shadow-outline bg-slate-700'
                     id='email'
                     type='email'
-                    placeholder='Your Email'
+                    placeholder='Enter Your Email Address'
                     value={email}
                     onChange={handleEmailChange}
                 />
@@ -100,7 +100,7 @@ export const ContactPage: React.FC = () => {
                     id='message'
                     cols={30}
                     rows={10}
-                    placeholder='Your Message'
+                    placeholder='Enter Your Message Here'
                     value={message}
                     onChange={handleMessageChange}
                 />
