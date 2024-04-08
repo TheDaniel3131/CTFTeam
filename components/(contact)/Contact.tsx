@@ -64,7 +64,7 @@ export const ContactPage: React.FC = () => {
     };
 
     return (  
-        <form onSubmit={handleSubmit} className='w-full max-w-sm mx-auto bg-slate-200 shadow-md rounded-[35px] px-8 pt-6 pb-8 mb-36 mt-10'>
+        <form onSubmit={handleSubmit} className='w-full max-w-sm mx-auto bg-slate-200 shadow-md rounded-[35px] px-8 pt-6 pb-8 mb-36 mt-10 items-center justify-between'>
             <div className='mb-4'>
                 <label className='block text-gray-500 font-bold mb-1' htmlFor='name'>
                     Name
@@ -105,12 +105,11 @@ export const ContactPage: React.FC = () => {
                     onChange={handleMessageChange}
                 />
             </div>
-            <button
-                type='submit'
-                className='bg-sky-950 hover:bg-sky-850 text-white font-bold py-2 px-5 justify-center text-center items-center rounded focus:outline-none focus:shadow-outline'
-            >
-                Send Email
-            </button>
+            <div className="text-center items-center">
+                <button type='submit' className="bg-sky-950 hover:bg-sky-850 text-white font-bold py-2 px-5 justify-center text-center items-center rounded focus:outline-none focus:shadow-outline mx-auto">
+                    Send Email
+                </button>              
+            </div>
         </form>
     );
 };
