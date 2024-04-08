@@ -36,7 +36,7 @@ const About = () => {
     <div className=" bg-slate-950 min-h-screen">
       <Navigationbar />
       <div className="container mx-auto py-8">
-        <div className="flex items-center justify-center bg-slate-700 mb-16">
+        <div className="flex items-center justify-center bg-slate-900 mb-16">
           <div className="flex items-center justify-center">
             <h1 className="text-6xl flex items-center justify-center flex-row-2 font-bold mt-10 mb-20 text-center underline">
               <DatabaseZap size={90} className="items-center justify-center mr-2 underline text-slate-100" />
