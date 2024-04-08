@@ -70,7 +70,7 @@ export const ContactPage: React.FC = () => {
                     Your Name
                 </label>
                 <input
-                    className='shadow appearance-none border rounded w-full py-2 px-3 text-slate-100 leading-tight focus:outline-none focus:shadow-outline bg-slate-700'
+                    className='shadow appearance-none border rounded-3xl w-full py-2 px-3 text-slate-100 leading-tight focus:outline-none focus:shadow-outline bg-slate-700'
                     id='name'
                     type='text'
                     placeholder='Your Name'
