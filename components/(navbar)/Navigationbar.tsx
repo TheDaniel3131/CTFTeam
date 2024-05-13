@@ -92,7 +92,7 @@ export const Navigationbar = () => {
                     </svg>
                 </button>
             </div>
-            <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+            <div className="flex flex-grow lg:flex lg:items-center lg:w-auto w-full">
                 <div className="text-sm flex-row flex gap-x-8 lg:flex-grow mr-5 lg:mt-0 justify-end">
                     <NavigationMenu>
                         <Link href="/about" legacyBehavior passHref>
@@ -105,7 +105,7 @@ export const Navigationbar = () => {
                                     About
                                 </NavigationMenuTrigger>
                                 <NavigationMenuContent>
-                                    <ul className="grid w-[450px] gap-3 p-4 md:w-[500px] md:grid-cols-1 lg:w-[650px] ">
+                                    <ul className="flex w-[150px] gap-3 p-4 md:w-[250px] md:flex-cols-1 lg:w-[350px] flex-col">
                                     {components.map((component) => (
                                         <ListItem
                                             key={component.title}
