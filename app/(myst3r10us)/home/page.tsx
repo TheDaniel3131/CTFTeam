@@ -6,7 +6,9 @@ import { HeroSection } from "@/components/(herosection)/Hero";
 const Home = () => {
   return (
     <div className='h-screen'>
-      <Navigationbar />
+      <div className='flex items-center md:w-auto left-0 w-full min-h-[60px] '>
+        <Navigationbar />
+      </div>
       <HeroSection/>
       <FooterPage />
     </div>
