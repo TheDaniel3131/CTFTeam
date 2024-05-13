@@ -5,7 +5,7 @@ import { HeroSection } from "@/components/(herosection)/Hero";
 
 const Home = () => {
   return (
-    <div>
+    <div className='h-screen'>
       <Navigationbar />
       <HeroSection/>
       <FooterPage />

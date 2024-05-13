@@ -160,7 +160,7 @@ export const Navigationbar = () => {
                         <NavigationMenuList>    
                             <NavigationMenuItem>
                             <NavigationMenuTrigger>
-                                <BookCheck className="mr-3"/>
+                                <BookCheck className="mr-5"/>
                                     <span className="text-lg font-DMS">
                                         Writeups
                                     </span>
@@ -176,10 +176,9 @@ export const Navigationbar = () => {
                                     >
                                         <div className="gap-y-3 text-left mb-2 mt-4 mr-6 text-lg font-medium w-[255px] lg:w-[255px]">
                                         <SquarePen className="mr-2"/> 
-                                        <span className="mb-4">myst3r10us&apos;&nbsp;Writeups</span>
+                                        <span className="mb-4 mt-4">myst3r10us&apos;&nbsp;Writeups</span>
                                             <p className="items-justify h-full w-full text-sm leading-tight text-left text-muted-foreground">
-                                                Solved Challenges With Writeups. <br></br>
-                                                Check them out~
+                                                Here, we showcase our Writeups from myst3r10us.
                                             </p>
                                         </div>
 
