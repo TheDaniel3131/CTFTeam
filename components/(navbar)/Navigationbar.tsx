@@ -105,7 +105,7 @@ export const Navigationbar = () => {
                                     About
                                 </NavigationMenuTrigger>
                                 <NavigationMenuContent>
-                                    <ul className="flex w-[150px] gap-3 p-4 md:w-[250px] md:flex-cols-1 lg:w-[350px] flex-col">
+                                    <ul className="flex w-[250px] gap-3 p-4 md:w-[350px] md:flex-cols-1 lg:w-[450px] flex-col">
                                     {components.map((component) => (
                                         <ListItem
                                             key={component.title}
