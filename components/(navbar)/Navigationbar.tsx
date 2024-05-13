@@ -124,38 +124,6 @@ export const Navigationbar = () => {
                         </NavigationMenuList>
                     </Link>
                 </NavigationMenu>
-{/* 
-                    <NavigationMenu>
-                        <Link href="/writeups" legacyBehavior passHref>
-                        <NavigationMenuList>
-                            <NavigationMenuItem>
-                                <NavigationMenuTrigger className="text-lg font-DMS">
-                                    <span className="mr-3">
-                                       <BookCheck/>
-                                    </span>
-                                    Writeups
-                                </NavigationMenuTrigger>
-                                <NavigationMenuContent>
-                                    <ul className="grid w-[450px] gap-3 p-4 md:w-[500px] md:grid-cols-1 lg:w-[650px] ">
-                                    {components2.map((component2) => (
-                                        <ListItem
-                                            key={component2.title}
-                                            title={component2.title}
-                                            href={component2.href}
-                                        >
-                                            <div className="flex items-center">
-                                                <CatIcon className="mr-2" />
-                                                <span>{component2.description}</span>
-                                            </div>
-                                        </ListItem>
-                                    ))}
-                                    </ul>         
-                                </NavigationMenuContent>
-                            </NavigationMenuItem>
-                        </NavigationMenuList>
-                      </Link>
-                    </NavigationMenu> */}
-
                     <NavigationMenu>
                         <NavigationMenuList>    
                             <NavigationMenuItem>
