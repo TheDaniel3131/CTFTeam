@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className=" bg-slate-950 min-h-screen">
       <Navigationbar />
-        <AboutPage />
+      <AboutPage />
       <FooterPage />
     </div>
   );
