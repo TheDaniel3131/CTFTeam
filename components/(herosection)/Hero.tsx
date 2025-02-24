@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 export const HeroSection: React.FC = () => {
   return (
-    <div className="relative flex flex-col md:flex-row items-center w-full md:min-h-screen md:justify-between bg-gray-900">
+    <div className="relative flex flex-col md:flex-row items-center w-full md:min-h-screen md:justify-between bg-slate-950">
       {/* Background image div - hidden on mobile */}
       <div
         className="hidden md:block absolute inset-0 w-full h-full"
