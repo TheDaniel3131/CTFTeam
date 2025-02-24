@@ -61,12 +61,12 @@ export const ContactPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-slate-950 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen flex items-center justify-center bg-slate-950 py-8 px-4 sm:px-6 lg:px-8">
       <form
         onSubmit={handleSubmit}
         className="w-full max-w-md bg-slate-850/70 backdrop-blur-md rounded-2xl shadow-lg p-8 border border-slate-700"
       >
-        <h2 className="text-3xl font-bold text-center mb-8 bg-clip-text text-transparent bg-gradient-to-r from-sky-400 to-cyan-400">
+        <h2 className="text-4xl font-bold text-center mb-8 text-white">
           Contact Us
         </h2>
         <div className="space-y-6">
