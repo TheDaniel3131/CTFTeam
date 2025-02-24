@@ -68,7 +68,7 @@ export const Navigationbar = () => {
         {/* Brand Logo */}
         <div className="flex items-center flex-shrink-0 text-white cursor-pointer">
           <Link href="/" legacyBehavior passHref>
-            <span className="text-xl font-semibold tracking-tight px-10 gap-5 cursor-pointer">
+            <span className="text-xl font-semibold tracking-tight md:px-10 gap-5 cursor-pointer">
               myst3r10us
             </span>
           </Link>
