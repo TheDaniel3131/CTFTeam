@@ -27,7 +27,7 @@ export const FooterPage = () => {
           {/* Grid Section (Right Side) */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-4">
             <div>
-              <Footer.Title title="Sections" />
+              <Footer.Title title="Quick Links" />
               <Footer.LinkGroup col className="mt-4">
                 <Footer.Link href="/about">About</Footer.Link>
                 <Footer.Link href="/writeups">Writeups</Footer.Link>
