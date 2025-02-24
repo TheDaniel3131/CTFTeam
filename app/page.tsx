@@ -4,12 +4,11 @@ import { FooterPage } from "@/components/(footer)/Footer";
 import Hero from "@/components/(herosection)/Hero";
 
 export default function Home() {
-    return (
-      <div>
-        <Navigationbar />
-        <Hero/>
-        <FooterPage />
-      </div>
-    );
+  return (
+    <div>
+      <Navigationbar />
+      <Hero />
+      <FooterPage />
+    </div>
+  );
 }
-
