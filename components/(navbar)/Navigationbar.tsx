@@ -208,22 +208,21 @@ export const Navigationbar = () => {
                   <span className="text-lg font-DMS">Writeups</span>
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <ul className="grid gap-x-3 p-4 md:w-[395px] md:h-[175px] lg:w-[395px] lg:grid-cols-[.5fr_1fr] justify-between">
-                    <li className="row-auto">
+                  <ul className="grid gap-4 p-8 md:w-[300px] md:h-[150px] lg:w-[300px] lg:grid-cols-1">
+                    <li>
                       <NavigationMenuLink asChild>
                         <a
-                          className="flex h-full w-full select-none flex-wrap justify-between rounded-md bg-gradient-to-b from-muted/50 to-muted py-2 px-10 no-underline outline-none focus:shadow-md"
+                          className="flex flex-col h-full w-full select-none justify-between rounded-md space-y-2 no-underline outline-none focus:shadow-md"
                           href="/writeups"
                         >
-                          <div className="gap-y-3 text-left mb-2 mt-4 mr-6 text-lg font-medium w-[255px] lg:w-[255px]">
-                            <SquarePen className="mr-2" />
-                            <span className="mb-4 mt-4">
-                              myst3r10us&apos;&nbsp;Writeups
-                            </span>
-                            <p className="items-justify h-full w-full text-sm leading-tight text-left text-muted-foreground">
-                              Here, we showcase our Writeups from myst3r10us.
-                            </p>
+                          <div className="flex items-center text-lg font-medium">
+                            <SquarePen />
+                            &nbsp;&nbsp;
+                            <span>Writeups</span>
                           </div>
+                          <p className="text-sm leading-tight text-muted-foreground">
+                            Here, we showcase our Writeups from myst3r10us.
+                          </p>
                         </a>
                       </NavigationMenuLink>
                     </li>
