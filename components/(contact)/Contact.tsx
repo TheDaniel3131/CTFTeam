@@ -61,7 +61,7 @@ export const ContactPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-slate-950 py-4 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen flex items-center justify-center bg-slate-950 py-4 px-4 sm:px-6 sm:py-2 lg:px-8">
       <form
         onSubmit={handleSubmit}
         className="w-full max-w-md bg-slate-850/70 backdrop-blur-md rounded-2xl shadow-lg p-8 border border-slate-700"
